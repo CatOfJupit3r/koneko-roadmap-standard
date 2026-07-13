@@ -16,16 +16,25 @@ The distribution intentionally excludes `hive-orchestration` and all bee-driven-
 
 ## Installation
 
-Install every skill with the standard:
+Run a clone directly with Node:
 
 ```bash
-koneko-roadmap-standard init --standard v2 --skills
+node .
+```
+
+The interactive wizard asks whether to install all skills, select individual skills, or add no new skills. It shows every planned file operation before asking for confirmation.
+
+For non-interactive automation, install every skill with the standard:
+
+```bash
+node . init --path ../my-repository --standard v2 --skills
 ```
 
 Install selected skills by repeating `--skill`:
 
 ```bash
-koneko-roadmap-standard init \
+node . init \
+  --path ../my-repository \
   --standard v2 \
   --skill roadmap-creation-workflow \
   --skill roadmap-phase-audit
