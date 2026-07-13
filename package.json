@@ -1,0 +1,34 @@
+{
+  "name": "koneko-roadmap-standard",
+  "version": "0.1.0",
+  "description": "Versioned Koneko roadmap standards and a checksum-verifying bootstrap CLI.",
+  "type": "module",
+  "bin": {
+    "koneko-roadmap-standard": "./src/cli.ts",
+    "koneko-roadmap": "./src/cli.ts"
+  },
+  "files": [
+    "README.md",
+    "src",
+    "standards",
+    "skills"
+  ],
+  "scripts": {
+    "test": "node --test test/checksum.test.ts test/bootstrap.test.ts",
+    "check": "node --check src/checksum.ts && node --check src/bootstrap.ts && node --check src/cli.ts && node --test test/checksum.test.ts test/bootstrap.test.ts"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatOfJupit3r/koneko-roadmap-standard.git"
+  },
+  "keywords": [
+    "roadmap",
+    "standard",
+    "bootstrap",
+    "typescript",
+    "agent-skills"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "repository": "CatOfJupit3r/koneko",
+    "ref": "6df04c10c51118ce8b9728d09fec8a54d8d2c063",
+    "selection": "Portable roadmap skills from the last commit before bee orchestration was introduced."
+  },
+  "skills": [
+    {
+      "name": "agent-implementation-proof",
+      "sourcePath": "skills/agent-implementation-proof/SKILL.md",
+      "installPath": ".agents/skills/agent-implementation-proof/SKILL.md",
+      "sourceRepositoryPath": ".agents/skills/agent-implementation-proof/SKILL.md",
+      "gitBlobSha1": "0fee2554563f2d8a4def8dc7cc3597cc11b3b581"
+    },
+    {
+      "name": "codex-diff-verification",
+      "sourcePath": "skills/codex-diff-verification/SKILL.md",
+      "installPath": ".agents/skills/codex-diff-verification/SKILL.md",
+      "sourceRepositoryPath": ".agents/skills/codex-diff-verification/SKILL.md",
+      "gitBlobSha1": "60b962a5385ab5d2cd14d99a20d783e60971a003"
+    },
+    {
+      "name": "roadmap-creation-workflow",
+      "sourcePath": "skills/roadmap-creation-workflow/SKILL.md",
+      "installPath": ".agents/skills/roadmap-creation-workflow/SKILL.md",
+      "sourceRepositoryPath": ".agents/skills/roadmap-creation-workflow/SKILL.md",
+      "gitBlobSha1": "b5a41862cc68a058d0a21a8dc72d8d9afd6cbee7"
+    },
+    {
+      "name": "roadmap-phase-audit",
+      "sourcePath": "skills/roadmap-phase-audit/SKILL.md",
+      "installPath": ".agents/skills/roadmap-phase-audit/SKILL.md",
+      "sourceRepositoryPath": ".agents/skills/roadmap-phase-audit/SKILL.md",
+      "gitBlobSha1": "1fe6802673da1e2e9def4935ade3741461d9fa2e"
+    },
+    {
+      "name": "roadmap-task-slicing",
+      "sourcePath": "skills/roadmap-task-slicing/SKILL.md",
+      "installPath": ".agents/skills/roadmap-task-slicing/SKILL.md",
+      "sourceRepositoryPath": ".agents/skills/roadmap-task-slicing/SKILL.md",
+      "gitBlobSha1": "2ffd65288c201831486e9529e44fc2e75a290fd0"
+    }
+  ]
+}
