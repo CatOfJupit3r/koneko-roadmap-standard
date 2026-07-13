@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "standardVersion": "v2",
+  "source": {
+    "repository": "CatOfJupit3r/koneko",
+    "ref": "6df04c10c51118ce8b9728d09fec8a54d8d2c063",
+    "verifiedAgainstMain": "2d495383769bfdad84a7b716917841d5abef5c09",
+    "modernizedByPullRequest": 181
+  },
+  "files": [
+    {
+      "path": "docs/roadmaps/standard.md",
+      "gitBlobSha1": "3446b489bf6c49bd142e1d43a9a2ef546ae3b6bd"
+    },
+    {
+      "path": "docs/roadmaps/standard/README.md",
+      "gitBlobSha1": "5c6d31442f834e1ec2692b4866ac64ba9615a840"
+    },
+    {
+      "path": "docs/roadmaps/standard/metadata.md",
+      "gitBlobSha1": "49532a327348b1ae9c0f2cf16d00ad67914d54bf"
+    },
+    {
+      "path": "docs/roadmaps/standard/structure.md",
+      "gitBlobSha1": "cd6ad7571140b64c373bede47586a3220eeeab61"
+    },
+    {
+      "path": "docs/roadmaps/standard/current-state.md",
+      "gitBlobSha1": "299c7034a09c5232d437f7df48d036b93df2dcf5"
+    },
+    {
+      "path": "docs/roadmaps/standard/use-cases.md",
+      "gitBlobSha1": "02a18913f928539e792ab975773bcc8e4f3bc7f1"
+    },
+    {
+      "path": "docs/roadmaps/standard/architecture.md",
+      "gitBlobSha1": "be66e2c21f1d6122140b39991708cca5840d64a0"
+    },
+    {
+      "path": "docs/roadmaps/standard/phases.md",
+      "gitBlobSha1": "93d4dd5e6d5deab72f6609e59b3fe5476e2dc4a9"
+    },
+    {
+      "path": "docs/roadmaps/standard/verification.md",
+      "gitBlobSha1": "b3a7ad30aae8bc79505a12160e1560dac2757ac5"
+    },
+    {
+      "path": "docs/roadmaps/standard/decisions.md",
+      "gitBlobSha1": "73dffd371ff50179554ba3d1387ffa3d99757927"
+    },
+    {
+      "path": "docs/roadmaps/standard/archive.md",
+      "gitBlobSha1": "fe27200493afb33f1c09cdd51d45ad35a3ff52cf"
+    },
+    {
+      "path": "docs/roadmaps/standard/generation.md",
+      "gitBlobSha1": "d9a7c37480e452ccb676dc43f5b1171d9934df2c"
+    }
+  ]
+}
