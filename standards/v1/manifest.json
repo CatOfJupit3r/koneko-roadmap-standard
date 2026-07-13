@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "standardVersion": "v1",
+  "source": {
+    "repository": "CatOfJupit3r/koneko",
+    "ref": "d3b040d4e3d7dbcf7f5e1eae01fd1120e4b7e873",
+    "modernizedByPullRequest": 181
+  },
+  "files": [
+    {
+      "path": "docs/roadmaps/standard.md",
+      "gitBlobSha1": "a6d3437df215375a5f1e9013e9bcc0498d2eb1a4"
+    }
+  ]
+}
