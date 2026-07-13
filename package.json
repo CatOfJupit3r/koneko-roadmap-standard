@@ -1,8 +1,9 @@
 {
   "name": "koneko-roadmap-standard",
-  "version": "0.1.0",
-  "description": "Versioned Koneko roadmap standards and a checksum-verifying bootstrap CLI.",
+  "version": "0.2.0",
+  "description": "Versioned Koneko roadmap standards and an interactive, checksum-verifying bootstrap CLI.",
   "type": "module",
+  "main": "./src/cli.ts",
   "bin": {
     "koneko-roadmap-standard": "./src/cli.ts",
     "koneko-roadmap": "./src/cli.ts"
@@ -14,8 +15,9 @@
     "skills"
   ],
   "scripts": {
-    "test": "node --test test/checksum.test.ts test/bootstrap.test.ts",
-    "check": "node --check src/checksum.ts && node --check src/bootstrap.ts && node --check src/cli.ts && node --test test/checksum.test.ts test/bootstrap.test.ts"
+    "start": "node .",
+    "test": "node --test test/checksum.test.ts test/bootstrap.test.ts test/cli.test.ts",
+    "check": "node --check src/checksum.ts && node --check src/bootstrap.ts && node --check src/cli.ts && node --test test/checksum.test.ts test/bootstrap.test.ts test/cli.test.ts"
   },
   "engines": {
     "node": ">=22.18.0"
@@ -29,6 +31,7 @@
     "standard",
     "bootstrap",
     "typescript",
-    "agent-skills"
+    "agent-skills",
+    "interactive-cli"
   ]
 }
